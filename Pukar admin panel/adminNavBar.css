@@ -1,0 +1,37 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.navigation-bar {
+	background-color: black;
+	display: flex;
+	justify-content:center;
+	align-items: center;
+	padding: 1rem;
+
+}
+/* Left Navigation side css */
+.navigation-bar-left-side{
+	display: flex;
+	flex-grow: 3;
+	justify-content: end;
+	align-items: center;
+	gap: 2rem;
+}
+/* LOGOUT button */
+.logout-btn{
+	text-decoration: none;
+	color: white;
+}
+/* Now Styling the user icon */
+.user-icon img{
+	width: auto;
+	height: 50px;
+	margin: 0;
+	padding: 0;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+

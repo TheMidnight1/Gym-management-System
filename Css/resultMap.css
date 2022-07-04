@@ -1,0 +1,13 @@
+.result-map{
+    margin: 0;
+    padding: 0;
+    padding-top: 8% ;
+    background-color: white;
+    text-align: center;
+
+}
+.result-map img{
+    height: 60vh;
+    width: 80%;
+    padding: 0;
+}

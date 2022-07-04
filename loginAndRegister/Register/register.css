@@ -1,0 +1,240 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: 3px;
+}
+
+body {
+    background-color: black;
+    background-image: url('register-background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.login-wrapper {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    position: relative;
+    width: 100%;
+    max-width: 680px;
+    padding: 80px 40px 40px;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    color: #fff;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+}
+
+
+
+.form h2 {
+    text-align: center;
+    letter-spacing: 1px;
+    margin-bottom: 2rem;
+    color: #ff652f;
+}
+
+.form .input-group {
+    position: relative;
+}
+
+
+.form .input-group input {
+    width: 100%;
+    padding: 10px 0;
+    padding-left:5em;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background-color: transparent;
+    color: inherit;
+}
+.form .input-group #firstName{
+    width:100%
+}
+.form .input-group #lastName{
+     width:100%
+}
+.form .twoColumn{
+    display: flex;
+    gap: 3em;
+}
+.form .threeColumn{
+    display: flex;
+    gap: 2em;
+}
+
+
+.form .input-group label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 1rem;
+    pointer-events: none;
+    transition: .3s ease-out;
+}
+
+.form .input-group input:focus+label,
+.form .input-group input:valid+label {
+    transform: translateY(-18px);
+    color: #ff652f;
+    font-size: .8rem;
+}
+/* Date of Birth */
+.dob{
+    border-bottom: 1px solid white;
+    margin-bottom: 30px;
+
+}
+.form .threeColumn{
+    gap: 7em;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.form select{
+    width: 100%;
+    margin: 20px;
+
+}
+select::-ms-expand {
+    display: none;
+    }
+    
+    .selectdiv select {
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      /* Add some styling */
+      display: block;
+      width: 100%;
+      max-width: 320px;
+      float: right;
+      margin: 5px 0px;
+      padding: 0px 2em;
+      font-size: 16px;
+      line-height: 1.75;
+      color: #333;
+      background-color: #ffffff;
+      background-image: none;
+      border: 1px solid #cccccc;
+      -ms-word-break: normal;
+      word-break: normal;
+      
+    }
+    /* Radio button */
+    .radiobtnContainer{
+        display: flex;
+        gap: 3em;
+    }
+    .rad-label {
+        display: flex;
+        align-items: center;
+      
+        border-radius: 100px;
+        padding: 14px 16px;
+        margin: 10px 0;
+      
+        cursor: pointer;
+        transition: .3s;
+      }
+      
+      .rad-input {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 1px;
+        height: 1px;
+        opacity: 0;
+        z-index: -1;
+      }
+      
+      .rad-design {
+        width: 22px;
+        height: 22px;
+        border-radius: 100px;
+      
+        background: linear-gradient(to right bottom, hsl(14, 97%, 62%), hsl(0, 95%, 50%));
+        position: relative;
+      }
+      
+      .rad-design::before {
+        content: '';
+      
+        display: inline-block;
+        width: inherit;
+        height: inherit;
+        border-radius: inherit;
+      
+        background: hsl(0, 0%, 90%);
+        transform: scale(1.1);
+        transition: .3s;
+      }
+      
+      .rad-input:checked+.rad-design::before {
+        transform: scale(0);
+      }
+      
+      .rad-text {
+        color: hsl(0, 0%, 60%);
+        margin-left: 14px;
+        letter-spacing: 3px;
+        font-size: 20px;
+        font-weight: 90;
+      
+        transition: .3s;
+      }
+      
+      .rad-input:checked~.rad-text {
+        color: hsl(0, 0%, 40%);
+      }
+      
+.create-btn {
+    display: block;
+    margin: auto;
+    border: none;
+    outline: none;
+    background: #ff652f;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+.close {
+    position: absolute;
+    right: 1.5rem;
+    top: 0.5rem;
+    font-size: 2rem;
+    font-weight: 900;
+    text-decoration: none;
+    color: inherit;
+}
+
+.redirectToLogin {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.redirectToLogin a {
+    width: 100%;
+    margin: auto;
+    text-decoration: none;
+    color: white;
+    
+}
+

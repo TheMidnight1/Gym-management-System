@@ -1,0 +1,53 @@
+
+.end-footer{
+    background-color: black ;
+    color: aliceblue;
+}
+.navagition-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.footer-a,#brand a{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 2px;
+}
+
+#brand a{
+    color: blue;
+    font-size: 2rem;
+}
+.footer-ul-list{
+    
+    color: #ff3860;
+    
+}
+.footer-li{
+    padding-left: 3rem;
+}
+.footer-li:hover{
+    color: #ff3860;
+}
+
+.footer{
+    display: flex;
+    gap:5em;
+    padding: 3rem;
+}
+.footer .footer-element{
+    padding: 4px;
+   
+}
+
+@media  all and (max-width: 600px) {
+    .footer{
+        flex-direction: column;
+    }
+    .navigation-footer{
+        flex-direction: column;
+
+    }
+}

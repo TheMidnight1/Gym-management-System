@@ -1,0 +1,82 @@
+
+
+/* CONTACT US CSS */
+body{
+    background-color: black;
+    color: white;
+}
+.third-column {
+    margin-top: 4rem;
+    color: white;
+
+}
+
+.contact-us-header {
+    text-align: center;
+}
+
+
+.contact-us-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.contact-us-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 5rem;
+
+}
+
+
+.two-column {
+    display: flex;
+    margin: 1.5rem;
+    justify-content: center;
+    gap: 2rem;
+    
+}
+
+.display-form-flex input
+ {
+    padding: 0.3rem 2rem;
+}
+.display-form-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.threeColumn{
+    display: flex;
+    gap: 2rem;
+    margin: 1.5rem;
+}
+.threeColumn select{
+    padding: 0.2rem 2rem;
+}
+.gender label{
+    margin-right: 3rem;
+}
+.gender{
+    display: flex;
+    margin: 1.5rem;
+    flex-direction: column;
+}
+.submit-btn{
+    padding: 1rem 2rem;
+}
+.submit-btn button{
+    padding: 0.2rem 4rem;
+}
+.logo{
+    color: #ff652f;
+    margin: 15px;
+    text-decoration: none;
+    font-weight: bolder;
+}
+

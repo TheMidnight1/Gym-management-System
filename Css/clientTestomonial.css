@@ -1,0 +1,57 @@
+.client-testomonial {
+    margin-top: 8%;
+    padding: 5% 8%;
+    /* background-image: url('../Images/clientTestomonial/backgroundWallpaper.jpg'); */
+    background-color: black;
+    height: fit-content;
+    color: white;
+    text-align: center;
+    background-size: cover;
+}
+
+.client-testomonial h1 {
+    margin-bottom: 4rem;
+}
+
+.contain-testomonial {
+    width: auto;
+    background-color: rgba(0, 0, 0, .5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    height: 70vh;
+    padding: 2rem;
+}
+
+.left-side img {
+    height: 40vh    ;
+    width: auto;
+    border: 1px solid white;
+}
+
+.pages-btn {
+    margin-top: 18px;
+}
+
+.clients-btn {
+
+    padding: 6px 14px;
+    background-color: rgba(255, 101, 47);
+    border: #ff652f;
+    margin: 2rem 1rem;
+    border-radius: 2px;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    color: white;
+}
+
+.clients-btn:hover {
+    background-color: rgba(255, 101, 80);
+    box-shadow: 0 5px 15px rgba(255, 101, 80);
+}
+@media  all and (max-width: 600px) {
+    .contain-testomonial{
+        flex-direction: column;
+    }
+}

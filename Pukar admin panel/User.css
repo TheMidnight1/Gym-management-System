@@ -1,0 +1,90 @@
+.container{
+    display: flex;
+}
+.table-section{
+    display: flex;
+    margin: 3rem 4rem;
+    flex-direction: column;
+}
+.top-of-table{
+    display: flex;
+    justify-content: space-between;
+    gap: 50rem;
+    
+}
+.trainers-table{
+    margin: 3rem 4rem;
+}
+.table_head {
+    padding: 2px 4px;
+    border: 1px solid #ddd;
+    margin: 2px;
+    text-align: left;
+    background-color: rgb(223, 79, 79);
+    color: white;
+  }
+.data-table{
+    border-collapse: collapse;
+}
+.data-table td, .data-table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+/* 
+EDIT AND DELETE BUTTON */
+
+.edit-btn {
+    background-color: #008CBA; /* BLUE */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer
+}
+
+.delete-btn {
+    background-color: #f44336; /* RED */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer
+}
+.delete-btn a{
+    text-decoration: none;
+    color: white;
+}
+.edit-btn a{
+    text-decoration: none;
+    color: white;
+}
+
+.add-trainer-btn button{
+    padding: 0.3rem 1rem;
+    background-color: #008CBA;
+    border: 1px solid #008CBA ;
+    cursor: pointer;
+    
+}
+.search-btn button{
+    padding: 0.3rem 1rem;
+    background-color: #f44336;
+
+    border: 1px solid #f44336;
+}
+.add-trainer-btn button:hover{
+    background-color: #7bd9f8;
+    border:none;
+}
+.search-btn button:hover{
+    background-color: #f46d64;
+    border:none;
+}

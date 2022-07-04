@@ -1,0 +1,25 @@
+.trainer-page{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top:7%;
+    height: 100vh;
+}
+.trainer-page h1{
+    padding-top:3rem;
+}
+.container-trainer{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    gap: 3rem;
+    margin: 2rem;
+}
+.container-trainer img{
+    width: 30vw;
+    height:auto;
+    margin-bottom: 2rem;
+
+}
